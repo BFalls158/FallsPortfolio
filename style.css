@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body{
-    background-image: url(http://codinglogics.in/wp-content/uploads/2016/10/portfolio-bg.jpg);
     margin: 0;
     padding: 0;
     }
 
-.main {
+#main {
+    width: 100vw;
+    height: 100vh;
+    display:block;
     position: relative;
+}
+
+#main::after {
+    content: "";
+    background-image: url(http://codinglogics.in/wp-content/uploads/2016/10/portfolio-bg.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 nav ul {
     list-style-type: none;
