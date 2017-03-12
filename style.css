@@ -1,42 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-body{
+body {
+    background-image: url(http://codinglogics.in/wp-content/uploads/2016/10/portfolio-bg.jpg);
+    padding: 0;
     margin: 0;
-    padding: 0x;
     }
 
-#main {
-    width: 100vw;
-    height: 100vh;
-    display:block;
-    position: relative;
-}
-
-#main::after {
-    content: "";
-    background-image: url(http://codinglogics.in/wp-content/uploads/2016/10/portfolio-bg.jpg);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-}
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    left: 10px;
-    right: 10px;
+    left: 0px;
+    right: 0px;
     z-index: 2;
+    top: 0;
+    margin: 0;
     }
 
 nav ul li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -52,6 +35,16 @@ nav ul li a:hover {
     background-color: green;
 }
 
+#main {
+    background-color: rgba(220,220,220,0.5);
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    bottom:0;
+    top:0;
+    left: 0;
+    right: 0;
+}
 .name {
     display: block;
     color: white;
@@ -65,12 +58,21 @@ nav ul li a:hover {
 .projects {
     height: 350px;
     width: 400px;
+    border-radius: 5%;
+    margin: 10px;
+    box-shadow: 3px 3px 5px 3px black;
 }
 
 .container {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: inline-block;
     text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    position:absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
