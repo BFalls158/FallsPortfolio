@@ -76,3 +76,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#form-message {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
