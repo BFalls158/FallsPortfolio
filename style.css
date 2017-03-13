@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway|Port+Lligat+Sans');
 body {
-    background-image: url(http://codinglogics.in/wp-content/uploads/2016/10/portfolio-bg.jpg);
     padding: 0;
     margin: 0;
     }
@@ -9,7 +8,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #36454f;
     position: fixed;
     left: 0px;
     right: 0px;
@@ -35,18 +34,18 @@ nav ul li a:hover {
 }
 
 .current {
-    background-color: green;
+    background-color: #32574a;
 }
 
 #main {
-    background-color: rgba(220,220,220,0.5);
+    background: linear-gradient(to bottom, rgba(50, 52, 134, 0.7),  rgba(36, 42, 156, 0.9));
     text-align: center;
     padding: 50px;
     position: absolute;
-    bottom:0;
     top:0;
     left: 0;
-    right: 0;
+    bottom: 0;
+    right:0;
 }
 .name {
     display: block;
@@ -72,6 +71,7 @@ nav ul li a:hover {
     display: inline-block;
     text-align: center;
     margin-top: 20px;
+    font-family: 'Port Lligat Sans', sans-serif;
 }
 
 footer {
@@ -79,9 +79,16 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
+    color: white;
 }
 
-h1 {
+.contacts {
+    font-size: 3em !important;
+    color: white;
+    margin: 0 5px;
+}
+
+h1, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -101,6 +108,10 @@ ol {
        margin-right: auto;
 }
 
+ol li {
+    text-align: left;
+}
+
 #portrait {
     display: block;
     margin-left: auto;
@@ -112,4 +123,15 @@ ol {
 
 p {
     width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-left: auto;
+  border-left: 3px solid #ccc;
+  width: 400px;
+  padding-left: 14px;
+  text-align: left;
+} 
