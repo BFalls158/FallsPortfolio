@@ -92,14 +92,20 @@ h1, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-form {
+form input{
     align-items: center;
+    border-radius: 5px;
 }
 
 #form-message {
     width: 600px;
     height: 200px;
     margin: 0 auto;
+    border-radius:5px;
+}
+
+#form-submit {
+    padding: 5px;
 }
 
 ol {
