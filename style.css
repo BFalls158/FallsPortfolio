@@ -100,7 +100,7 @@ h1, h3 {
 }
 
 h1 {
-    padding: 45px;
+    padding-top: 45px;
 }
 
 form input{
@@ -151,8 +151,16 @@ blockquote {
   width: 400px;
   padding-left: 14px;
   text-align: left;
-} 
-
-a :visited {
+}
+ 
+a:link {
     color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: hotpink;
 }
