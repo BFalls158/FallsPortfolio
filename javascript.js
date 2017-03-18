@@ -32,8 +32,8 @@ function toPigLatin(str) {
 btn.addEventListener('click', function() {
     var inpt = document.getElementById('playground-text').value;
     if(regx.test(inpt) === true) {
-        tlate.innerHTML = "Please exclude special characters." 
+        tlate.innerText = "Please exclude special characters." 
     } else {
-    tlate.innerHTML = toPigLatin(inpt);
+    tlate.innerText = toPigLatin(inpt);
     }
     });
