@@ -10,6 +10,7 @@ body {
     background: linear-gradient(to bottom, rgba(50, 52, 134, 0.7),  rgba(36, 42, 156, 0.9));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
     }
 
 nav ul {
@@ -149,6 +150,7 @@ p {
     width: 650px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14pt;
 }
 
 blockquote {
